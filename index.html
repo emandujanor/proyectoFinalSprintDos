@@ -5,13 +5,15 @@
     <title>Listas de pendientes</title>
   </head>
   <body>
-    <header> <h1>Estas en tu lista de pendientes</h1></header>
-    <section id="tareas"></section>
+    <header> <h1 style="color:#37839F;" align="center" >Estas en tu lista de pendientes</h1></header>
+    <section id="tareas" ></section>
+    <hr>
     <form>
       <input type="text" id="nombreTarea" placeholder="Escribe el nombre de la Tarea que deseas crear"> </input>
     </form>
     <br>
     <button type="button" id="crearTarea" onclick="addElement(getElementById('nombreTarea').value);">Agregar Tarea</button>
+    <hr>
     <script type="text/javascript" src="js/pendientes.js"> </script>
   </body>
 </html>

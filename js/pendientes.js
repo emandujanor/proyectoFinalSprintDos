@@ -35,4 +35,5 @@ function addElement(){
     })
   })
   tareas.appendChild(botonAgregarPendiente);
+
 }

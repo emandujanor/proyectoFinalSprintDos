@@ -8,8 +8,10 @@ function addElement(){
   tareas.appendChild(h1);
   tareas.appendChild(ul);
 
+
   var botonAgregarPendiente = document.createElement("button");
   botonAgregarPendiente.innerText="Agrega un pendiente";
+  botonAgregarPendiente.style.marginBottom="20px";
   botonAgregarPendiente.onclick=(function(){
     var li = document.createElement("li");//cada vez que se hace click al boton agregar pendiente, se crea una nueva etiqueta li
     ul.appendChild(li);//se agrega el nuevo elemento li a la ul
